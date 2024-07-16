@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+ }
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #63fca3;
+    
+}
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #33ec80, #0d5a2d);
+    
+   
+}
+
+header > nav {
+    text-align: left;
+    padding: 4px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 22px;
+}
+
+header > p {
+    color: white;
+    font-weight: lighter;
+    margin: 16px;
+}
+
+header > nav > a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+}
+
+header > nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 670px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.397);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h2 {
+    font-family: idroid;
+    color: #0d5a2d;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+main > h3 {
+    font-family: idroid;
+    color: #1e9e54;
+    background-image: linear-gradient(to right, #34d5778a, white);
+    margin: 20px 20px;
+    padding-left: 8px;
+    text-align: left;
+}
+
+main > p {
+    text-indent: 35px;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #158f48;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #158f48;
+    font-weight: bold;
+ }
+
+div {
+    background-color: #0d5a2d;
+    padding: 20px;
+}
+
+section {
+    text-align: left;
+    margin: 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.274);
+    background-color: #91f8bc98;
+}
+
+article {
+    padding: 20px 10px;
+}
+
+aside {
+    display: inline-block;
+    margin: 20px 80px 20px 0px;
+}
+
+ul {
+    padding: 20px;
+    list-style-image: url(imagens/favicon-16x16.png);
+}
+
+footer {
+    text-align: center;
+    background-color: #0d5a2d;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}
+
+.img-container {
+    width: 630px;
+    text-align: center;
+}
+
+.video-droid {
+    text-align: center;
+}
+
+.paragrafo-section {
+    text-indent: 30px;
+}
+
+p#aprender {
+    background-color: #1cc261;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
