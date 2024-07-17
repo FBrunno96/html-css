@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical de imagens</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container {
+            height: 100vh;
+            position: relative;
+            background: black url(imagens/espaco.jpg) center center no-repeat fixed;
+            background-size: cover;
+           
+        }
+
+        #conteudo {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            background: transparent url(imagens/astronauta.png) center center fixed;
+            background-size: cover;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
