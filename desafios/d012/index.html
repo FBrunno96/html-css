@@ -6,7 +6,7 @@
     <title>Cordel Moderno</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
         * {
             margin: 0px;
@@ -22,22 +22,22 @@
         header h1 {
             color: white;
             font-family: 'Passion One';
-            font-size: 6em;
+            font-size: 5em;
             text-align: center;
         }
 
         header p {
             color: white;
-            font-family: 'Passion One';
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 1.1em;
-            font-weight: 100;
+            font-weight: lighter;
             text-align: center;
         }
 
         header a {
             text-decoration: none;
             color: white;
-            font-weight: 100;
+            font-weight: bold;
             letter-spacing: 1px;
         }
 
@@ -45,6 +45,60 @@
             text-decoration: underline;
         }
         
+        main aside#flor {
+            width: 100%;
+            background:black url(imagens/background001.jpg) right center no-repeat fixed;
+            background-size: cover;
+            box-shadow: inset 0px 0px 20px 0px black;
+            
+        }
+
+        main aside#papel {
+            width: 100%;
+            background:black url(imagens/background002.jpg) right center no-repeat fixed;
+            background-size: cover;
+            
+        }
+
+        main > p {
+            font-family: 'Sriracha';
+            font-size: 1.7em;
+            max-width: 300px;
+            padding: 60px 25px;
+            background-color: white;
+        }
+
+        main aside > p {
+            background-color: rgba(0, 0, 0, 0.288);
+            font-family: 'Sriracha';
+            font-size: 1.7em;
+            max-width: 300px;
+            margin: 30px;
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            padding: 10px 0px;
+        }
+
+        footer > p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 1em;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -54,7 +108,6 @@
     </header>
 
     <main>
-        <section>
             <p>
                 Estou ficando cansado
                 Da tal tecnologia
@@ -65,15 +118,19 @@
                 Vou dizer tudo em poesia.
             </p>
             
-            <p>
-                Não é mais como era antes
-                É tudo abreviado
-                "Você" só tem duas letras
-                O "O" e o "E" foi riscado
-                Para declarar o amor
-                Basta botar uma flor
-                E um coração desenhado.
-            </p>
+            <section>
+                <aside id="flor">
+                    <p>
+                        Não é mais como era antes
+                        É tudo abreviado
+                        "Você" só tem duas letras
+                        O "O" e o "E" foi riscado
+                        Para declarar o amor
+                        Basta botar uma flor
+                        E um coração desenhado.
+                    </p>
+                </aside>
+            </section>
             
             <p>
                 Arroba agora não pesa
@@ -83,6 +140,9 @@
                 Agora é .com
                 Se o saite é muito bom
                 Ele vale um alto preço.
+            </p>
+
+            <p>
                 Pra piorar a liguagem
                 O emoticom é um risco
                 Tem símbolo para tudo
@@ -91,18 +151,20 @@
                 Pra entender como fica
                 Decifre esse rabisco.
             </p>
-        </section>
-        
-        <section>
-            <p>
-                Tenho saudade das cartas
-                Escritas com a própria mão
-                Mandava no mês de Junho
-                Só chegava no Verão
-                Mas matava a saudade
-                Era texto de verdade
-                Nas linhas do coração.
-            </p>
+
+            <section>
+                <aside id="papel">
+                    <p>
+                        Tenho saudade das cartas
+                        Escritas com a própria mão
+                        Mandava no mês de Junho
+                        Só chegava no Verão
+                        Mas matava a saudade
+                        Era texto de verdade
+                        Nas linhas do coração.
+                    </p>
+                </aside>
+            </section>
             
             <p>
                 Agora, escrevo e envio
@@ -112,6 +174,9 @@
                 Abriu outro aplicativo
                 O mundo ficou cativo
                 Da tecnologia do agora.
+            </p>
+
+            <p>
                 Felizmente, pra orar
                 Não precisa de internet
                 Deus escuta todo mundo
@@ -120,11 +185,10 @@
                 Seus lábios são aparelhos
                 Deixe que Deus interprete.
             </p>
-        </section>
     </main>
 
     <footer>
-
+        <p>Site criado por <a href="https://github.com/FBrunno96" target="_blank">Brunno Faissal</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a></p>
     </footer>
 
 </body>
