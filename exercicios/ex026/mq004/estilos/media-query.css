@@ -29,7 +29,7 @@
     }
 
     main::after {
-        content: 'Essa impressão foi feita através do site www.vursoemvideo.com';
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
         text-decoration: overline;
     }
 
